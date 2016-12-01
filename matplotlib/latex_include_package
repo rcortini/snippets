@@ -1,0 +1,2 @@
+params = {'text.latex.preamble' : [r'\usepackage{mathrsfs}']}
+plt.rcParams.update(params)
