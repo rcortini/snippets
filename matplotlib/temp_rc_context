@@ -1,0 +1,4 @@
+with plt.rc_context({'axes.edgecolor':'black',
+                     'ytick.color':'blue',
+                     'figure.facecolor':'white'}):
+    plt.plot(x,y)
