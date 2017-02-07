@@ -1,0 +1,5 @@
+1. clone repo from github
+2. go to main dir and type make
+3. (optional) go to build/ directory and type ccmake . and set DMAKE_INSTALL_PREFIX
+4. go to main dir and type make install
+5. go to ~/.config/nvim and put configuration there
