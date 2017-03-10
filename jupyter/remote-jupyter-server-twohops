@@ -1,0 +1,4 @@
+1. (willow): jupyter notebook --no-browser --port=10101
+2. (ssh-server): ssh -N -L 10100:localhost:10101 willow
+3. (bigbud747): ssh -N -L 10102:localhost:10100 crg
+4. open browser at localhost:10102
