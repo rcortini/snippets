@@ -1,0 +1,8 @@
+1. ~/work/tools/ipynb_output_filter.py
+2. chmod it
+3. Create the file ~/.gitattributes, with the following content
+*.ipynb    filter=dropoutput_ipynb
+4. Run the following commands:
+git config --global core.attributesfile ~/.gitattributes
+git config --global filter.dropoutput_ipynb.clean ~/bin/ipynb_output_filter.py
+git config --global filter.dropoutput_ipynb.smudge cat
